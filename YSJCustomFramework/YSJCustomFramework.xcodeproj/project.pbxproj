@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88F735F32889544C006B8FB3 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F735F22889544C006B8FB3 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F735F32889544C006B8FB3 /* YSJCustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F735F22889544C006B8FB3 /* YSJCustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88F735FC288954B2006B8FB3 /* LoggerImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FB288954B2006B8FB3 /* LoggerImplement.swift */; };
 		88F735FE288954BD006B8FB3 /* LoggerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FD288954BD006B8FB3 /* LoggerInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88F735EF2889544C006B8FB3 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F735F22889544C006B8FB3 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
+		88F735EF2889544C006B8FB3 /* YSJCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YSJCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F735F22889544C006B8FB3 /* YSJCustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSJCustomFramework.h; sourceTree = "<group>"; };
 		88F735FB288954B2006B8FB3 /* LoggerImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerImplement.swift; sourceTree = "<group>"; };
 		88F735FD288954BD006B8FB3 /* LoggerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,7 +33,7 @@
 		88F735E52889544C006B8FB3 = {
 			isa = PBXGroup;
 			children = (
-				88F735F12889544C006B8FB3 /* CustomFramework */,
+				88F735F12889544C006B8FB3 /* YSJCustomFramework */,
 				88F735F02889544C006B8FB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,24 +41,24 @@
 		88F735F02889544C006B8FB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88F735EF2889544C006B8FB3 /* CustomFramework.framework */,
+				88F735EF2889544C006B8FB3 /* YSJCustomFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88F735F12889544C006B8FB3 /* CustomFramework */ = {
+		88F735F12889544C006B8FB3 /* YSJCustomFramework */ = {
 			isa = PBXGroup;
 			children = (
 				88F735FA2889546D006B8FB3 /* project */,
 				88F735F928895467006B8FB3 /* public */,
 			);
-			path = CustomFramework;
+			path = YSJCustomFramework;
 			sourceTree = "<group>";
 		};
 		88F735F928895467006B8FB3 /* public */ = {
 			isa = PBXGroup;
 			children = (
-				88F735F22889544C006B8FB3 /* CustomFramework.h */,
+				88F735F22889544C006B8FB3 /* YSJCustomFramework.h */,
 				88F735FD288954BD006B8FB3 /* LoggerInterface.swift */,
 			);
 			path = public;
@@ -79,16 +79,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F735F32889544C006B8FB3 /* CustomFramework.h in Headers */,
+				88F735F32889544C006B8FB3 /* YSJCustomFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88F735EE2889544C006B8FB3 /* CustomFramework */ = {
+		88F735EE2889544C006B8FB3 /* YSJCustomFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramework" */;
+			buildConfigurationList = 88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "YSJCustomFramework" */;
 			buildPhases = (
 				88F735EA2889544C006B8FB3 /* Headers */,
 				88F735EB2889544C006B8FB3 /* Sources */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomFramework;
+			name = YSJCustomFramework;
 			productName = CustomFramwork;
-			productReference = 88F735EF2889544C006B8FB3 /* CustomFramework.framework */;
+			productReference = 88F735EF2889544C006B8FB3 /* YSJCustomFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramework" */;
+			buildConfigurationList = 88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "YSJCustomFramework" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88F735EE2889544C006B8FB3 /* CustomFramework */,
+				88F735EE2889544C006B8FB3 /* YSJCustomFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.YSJCustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -332,7 +332,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.YSJCustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramework" */ = {
+		88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "YSJCustomFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88F735F42889544C006B8FB3 /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramework" */ = {
+		88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "YSJCustomFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88F735F72889544C006B8FB3 /* Debug */,
