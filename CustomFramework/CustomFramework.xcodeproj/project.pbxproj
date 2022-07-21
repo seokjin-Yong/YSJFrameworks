@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88F735F32889544C006B8FB3 /* CustomFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F735F22889544C006B8FB3 /* CustomFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F735F32889544C006B8FB3 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F735F22889544C006B8FB3 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88F735FC288954B2006B8FB3 /* LoggerImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FB288954B2006B8FB3 /* LoggerImplement.swift */; };
 		88F735FE288954BD006B8FB3 /* LoggerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FD288954BD006B8FB3 /* LoggerInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88F735EF2889544C006B8FB3 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F735F22889544C006B8FB3 /* CustomFramwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramwork.h; sourceTree = "<group>"; };
+		88F735F22889544C006B8FB3 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
 		88F735FB288954B2006B8FB3 /* LoggerImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerImplement.swift; sourceTree = "<group>"; };
 		88F735FD288954BD006B8FB3 /* LoggerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +58,7 @@
 		88F735F928895467006B8FB3 /* public */ = {
 			isa = PBXGroup;
 			children = (
-				88F735F22889544C006B8FB3 /* CustomFramwork.h */,
+				88F735F22889544C006B8FB3 /* CustomFramework.h */,
 				88F735FD288954BD006B8FB3 /* LoggerInterface.swift */,
 			);
 			path = public;
@@ -79,7 +79,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F735F32889544C006B8FB3 /* CustomFramwork.h in Headers */,
+				88F735F32889544C006B8FB3 /* CustomFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
