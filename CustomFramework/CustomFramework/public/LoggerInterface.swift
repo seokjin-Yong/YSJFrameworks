@@ -1,6 +1,6 @@
 //
 //  LoggerInterface.swift
-//  CustomFramwork
+//  CustomFramework
 //
 //  Created by sjyong on 2022/07/21.
 //

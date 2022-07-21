@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88F735EF2889544C006B8FB3 /* CustomFramwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F735EF2889544C006B8FB3 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F735F22889544C006B8FB3 /* CustomFramwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramwork.h; sourceTree = "<group>"; };
 		88F735FB288954B2006B8FB3 /* LoggerImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerImplement.swift; sourceTree = "<group>"; };
 		88F735FD288954BD006B8FB3 /* LoggerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerInterface.swift; sourceTree = "<group>"; };
@@ -33,7 +33,7 @@
 		88F735E52889544C006B8FB3 = {
 			isa = PBXGroup;
 			children = (
-				88F735F12889544C006B8FB3 /* CustomFramwork */,
+				88F735F12889544C006B8FB3 /* CustomFramework */,
 				88F735F02889544C006B8FB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,18 +41,18 @@
 		88F735F02889544C006B8FB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88F735EF2889544C006B8FB3 /* CustomFramwork.framework */,
+				88F735EF2889544C006B8FB3 /* CustomFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88F735F12889544C006B8FB3 /* CustomFramwork */ = {
+		88F735F12889544C006B8FB3 /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
 				88F735FA2889546D006B8FB3 /* project */,
 				88F735F928895467006B8FB3 /* public */,
 			);
-			path = CustomFramwork;
+			path = CustomFramework;
 			sourceTree = "<group>";
 		};
 		88F735F928895467006B8FB3 /* public */ = {
@@ -86,9 +86,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88F735EE2889544C006B8FB3 /* CustomFramwork */ = {
+		88F735EE2889544C006B8FB3 /* CustomFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramwork" */;
+			buildConfigurationList = 88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramework" */;
 			buildPhases = (
 				88F735EA2889544C006B8FB3 /* Headers */,
 				88F735EB2889544C006B8FB3 /* Sources */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomFramwork;
+			name = CustomFramework;
 			productName = CustomFramwork;
-			productReference = 88F735EF2889544C006B8FB3 /* CustomFramwork.framework */;
+			productReference = 88F735EF2889544C006B8FB3 /* CustomFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramwork" */;
+			buildConfigurationList = 88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramework" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88F735EE2889544C006B8FB3 /* CustomFramwork */,
+				88F735EE2889544C006B8FB3 /* CustomFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,13 +294,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -324,13 +325,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.CustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -342,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramwork" */ = {
+		88F735E92889544C006B8FB3 /* Build configuration list for PBXProject "CustomFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88F735F42889544C006B8FB3 /* Debug */,
@@ -351,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramwork" */ = {
+		88F735F62889544C006B8FB3 /* Build configuration list for PBXNativeTarget "CustomFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88F735F72889544C006B8FB3 /* Debug */,
