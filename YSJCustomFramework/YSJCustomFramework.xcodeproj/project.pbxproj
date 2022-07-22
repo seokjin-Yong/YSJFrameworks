@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88F735F32889544C006B8FB3 /* YSJCustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F735F22889544C006B8FB3 /* YSJCustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88F735FC288954B2006B8FB3 /* LoggerImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FB288954B2006B8FB3 /* LoggerImplement.swift */; };
-		88F735FE288954BD006B8FB3 /* LoggerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F735FD288954BD006B8FB3 /* LoggerInterface.swift */; };
+		885F4FAD288A3259005EF975 /* LoggerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F4FAA288A3259005EF975 /* LoggerInterface.swift */; };
+		885F4FAE288A3259005EF975 /* YSJCustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 885F4FAB288A3259005EF975 /* YSJCustomFramework.h */; };
+		885F4FAF288A3259005EF975 /* LoggerImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F4FAC288A3259005EF975 /* LoggerImplement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885F4FAA288A3259005EF975 /* LoggerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerInterface.swift; sourceTree = "<group>"; };
+		885F4FAB288A3259005EF975 /* YSJCustomFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSJCustomFramework.h; sourceTree = "<group>"; };
+		885F4FAC288A3259005EF975 /* LoggerImplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerImplement.swift; sourceTree = "<group>"; };
 		88F735EF2889544C006B8FB3 /* YSJCustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YSJCustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F735F22889544C006B8FB3 /* YSJCustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSJCustomFramework.h; sourceTree = "<group>"; };
-		88F735FB288954B2006B8FB3 /* LoggerImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerImplement.swift; sourceTree = "<group>"; };
-		88F735FD288954BD006B8FB3 /* LoggerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,27 +49,11 @@
 		88F735F12889544C006B8FB3 /* YSJCustomFramework */ = {
 			isa = PBXGroup;
 			children = (
-				88F735FA2889546D006B8FB3 /* project */,
-				88F735F928895467006B8FB3 /* public */,
+				885F4FAC288A3259005EF975 /* LoggerImplement.swift */,
+				885F4FAA288A3259005EF975 /* LoggerInterface.swift */,
+				885F4FAB288A3259005EF975 /* YSJCustomFramework.h */,
 			);
 			path = YSJCustomFramework;
-			sourceTree = "<group>";
-		};
-		88F735F928895467006B8FB3 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				88F735F22889544C006B8FB3 /* YSJCustomFramework.h */,
-				88F735FD288954BD006B8FB3 /* LoggerInterface.swift */,
-			);
-			path = public;
-			sourceTree = "<group>";
-		};
-		88F735FA2889546D006B8FB3 /* project */ = {
-			isa = PBXGroup;
-			children = (
-				88F735FB288954B2006B8FB3 /* LoggerImplement.swift */,
-			);
-			path = project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +63,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F735F32889544C006B8FB3 /* YSJCustomFramework.h in Headers */,
+				885F4FAE288A3259005EF975 /* YSJCustomFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F735FC288954B2006B8FB3 /* LoggerImplement.swift in Sources */,
-				88F735FE288954BD006B8FB3 /* LoggerInterface.swift in Sources */,
+				885F4FAD288A3259005EF975 /* LoggerInterface.swift in Sources */,
+				885F4FAF288A3259005EF975 /* LoggerImplement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +284,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.YSJCustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -331,6 +316,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ysj.sample.YSJCustomFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
