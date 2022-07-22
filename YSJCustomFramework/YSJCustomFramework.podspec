@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   
   spec.source       = { :git => "https://github.com/seokjin-Yong/YSJFrameworks.git", :tag => spec.version.to_s }
-  spec.source_files  = 'YSJCustomFramework/**/*'
+  spec.source_files  = "YSJCustomFramework/**/*{.swift}"
 end
