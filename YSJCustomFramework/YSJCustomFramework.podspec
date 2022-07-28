@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "YSJCustomFramework"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "YSJCustomFramework developed by YSJ"
   spec.description  = "YSJCustomFramework for using developing app"
   spec.homepage     = "https://github.com/seokjin-Yong/YSJFrameworks"

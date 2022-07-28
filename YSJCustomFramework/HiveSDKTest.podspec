@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveSDKTest"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   $hive_sdk_version = "4.16.0.2"
   spec.summary      = "Cocoapods test summary of HiveSDK Test ."
   spec.description  = "Cocoapods test description of HiveSDK Test."
@@ -39,6 +39,7 @@ Pod::Spec.new do |spec|
     :http => "https://github.com/seokjin-Yong/YSJFrameworks/releases/download/#{spec.version}/HIVE_SDK_iOS_v#{$hive_sdk_version}_withCore.zip" 
   }
 
+  # 4.16.0.2 미만
   # $vendored_frameworks_path = "SDK/framework"
   # spec.vendored_frameworks =  #"#{$vendored_frameworks_path}/HIVE_SDK_Plugin.framework", 
   #                             #"#{$vendored_frameworks_path}/HIVEBase.framework" 
@@ -49,9 +50,9 @@ Pod::Spec.new do |spec|
   #                             #"#{$vendored_frameworks_path}/HIVEUI.framework",
   #                             #"#{$vendored_frameworks_path}/ProviderAdapter.framework"
 
+  # 4.16.0.2 이상
   $vendored_frameworks_path = "HIVE_SDK_iOS_v#{$hive_sdk_version}_withCore"
-  spec.vendored_frameworks =  #"#{$vendored_frameworks_path}/HIVE_SDK_UnityPlugin.xcframework",  
-                              "#{$vendored_frameworks_path}/HIVECore.xcframework", 
+  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HIVECore.xcframework", 
                               "#{$vendored_frameworks_path}/HIVEIAPV4.xcframework",
                               "#{$vendored_frameworks_path}/HIVEProtocol.xcframework",
                               "#{$vendored_frameworks_path}/HIVEService.xcramework",
