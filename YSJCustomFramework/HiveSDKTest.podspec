@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveSDKTest"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   $hive_sdk_version = "4.16.0.2"
   spec.summary      = "Cocoapods test summary of HiveSDK Test ."
   spec.description  = "Cocoapods test description of HiveSDK Test."
